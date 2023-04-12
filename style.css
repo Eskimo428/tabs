@@ -1,0 +1,44 @@
+.tab__navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #f3f4f7;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.tab:hover{
+background: #b2bc96;
+color: white;
+border-radius: 5px;
+}
+
+.tab_active {
+  color: blue;
+}
+
+.tab__content {
+  display: none;
+  padding: 20px;
+}
+.tab__content_active {
+  display: block;
+}
+
+.tab__contents{
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 70%;
+}
+
+.header__title{
+  text-align: center;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
